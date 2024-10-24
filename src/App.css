@@ -1,0 +1,387 @@
+
+#root{
+  background-color: black;
+}
+nav {
+
+text-align: center;
+padding: 30px;
+border-bottom: rgb(230, 67, 67) 30px;
+
+}
+.h1cab,.h2cab{
+  text-align: center;
+  font-size: 50px;
+  color:rgb(247, 246, 246); 
+}
+.h1cab:hover {
+
+  color: rgb(103, 27, 190); 
+
+  cursor: pointer; }
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 20;
+}
+
+.menu li {
+  display: inline-flex; 
+  border-left:5px solid white;
+  border-bottom:5px solid white;
+  border-top:5px solid white; 
+  border-right:5px solid white;
+  transition: 0.3s ease; 
+}
+
+.menu li:hover {
+border-color:#0e67d3af;
+}
+a{
+  text-decoration: none;
+  font-size: 38px;
+  margin-left: 20px;
+margin-right: 20px;
+ 
+}
+.bloque{
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color:#168e88d9;
+
+ }
+ .imgcab{
+  width: 100%;
+  height: 300px; 
+ }
+h2{
+  color: rgb(241, 233, 233);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+.h2acerca:hover {
+
+  color: rgb(103, 27, 190); 
+
+  cursor: pointer; }
+  .h2cata:hover {
+
+    color: rgb(103, 27, 190); 
+  
+    cursor: pointer; }
+
+  .img-mision{
+    width: 90%;
+    height: 280px;
+    align-items: center;
+    margin-left: 30px;
+   
+  }
+  
+  .art-mision{
+    width: 31%;
+    height: 280px;
+  
+    margin: 10px;
+    border: 5px solid;
+    border-radius: 5px;
+    overflow:hidden;
+    display: inline-block;
+    background-color: blanchedalmond;
+    
+  }
+  .art-mision:hover .img-mision{
+   
+    height: 0px;
+    transition: all 1.5s;}
+
+    .h4cab{
+      font-size: 25px;
+      color: black;
+      text-align: center;
+      font-family: fantasy;
+    }
+.h4mision{
+  font-size: 25px;
+  color: black;
+}
+.frase{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 30px;
+  color: aliceblue;
+  text-align: center;
+}
+.video-youtube{
+  display: flex;
+}
+.video-container{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+/*estilos pie de pagina*/
+.pie-pagina {
+  background-color: #4a4a4f;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.redes-sociales {
+  margin-bottom: 20px;
+}
+
+.redes-sociales a {
+  margin: 0 10px;
+}
+
+.redes-sociales img {
+  width: 60px; 
+  height: 60px;
+  mix-blend-mode: color-burn;
+ 
+}
+
+.texto-pie {
+  font-size: 20px;
+  color: #f4f5fa;
+}
+.h2peli{
+  color: black;
+  font-size: 25px;
+}
+
+
+/*ESTLOS DEL FORMULARIO*/  /*sebastian como vamos a enlazar las paginas ya fue pipipipi*/
+.ContactForm {
+  width: 300px; 
+  margin: auto; 
+  text-align: center; 
+}
+
+.ContactForm label,
+.ContactForm input,
+.ContactForm textarea,
+.ContactForm button {
+  display: block; 
+  margin-bottom: 10px; 
+  width: 100%; 
+  color: #1c88d0;
+}
+
+.ContactForm textarea {
+  height: 100px; 
+}
+
+
+
+
+/*EFECTOS PARA EL BOTON*/
+
+.ContactForm button {
+  width: 150px; 
+  margin: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-radius: 25px color black;
+  padding: 20px;
+  background-color: #121213;
+  
+  color: #1eca40; 
+  font-weight: bold; 
+  font-size: 16px; 
+
+  cursor: pointer;
+ 
+}
+
+.ContactForm button:hover {
+  box-shadow: 0 0 40px rgba(0, 255, 0, 0.9), 
+              0 0 40px rgba(0, 255, 0, 0.7), 
+              0 0 40px rgba(0, 255, 0, 0.5); 
+}
+ 
+ 
+/*estilos para el carrito*/
+.art-carrito {
+  display: flex;
+  align-items: center;
+  transition: border 0.3s ease;
+  border:2px solid transparent; 
+}
+
+.art-carrito:hover {
+  border-color: #8e0ee3 #168e88d9; 
+}
+
+.img-carrito {
+  width: 180px; 
+  margin-right: 20px; 
+}
+
+
+
+/* Estilos para los elementos de texto */
+.h2carrito {
+  margin-top: 5px; 
+  color: whitesmoke;
+
+}
+
+
+.pcarrito{
+  margin-bottom: 10px; 
+  margin-inline-start: 10px;
+  color: whitesmoke;
+
+}
+.pre{
+  color: #f4f5fa;
+
+  text-align: center;
+margin-top: 145px;
+  
+  
+
+}
+
+button {
+  padding: 5px 10px; 
+  background-color: #007bff; 
+  color: #fff;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+.button-container {
+  position: absolute; 
+  bottom: 10px; 
+  right: 10px; 
+
+}
+.btn-carrito {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Estilos para la imagen dentro del botón */
+.btn-carrito img {
+  width: 90px; 
+  height: auto; 
+  mix-blend-mode: color-burn;
+}
+.elcarrito{
+  background-color: crimson;
+}
+
+
+
+/* Estilos para el modal */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 9999; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo-container {
+
+width: 140px;
+height: 120px;
+  
+ background-color: rgb(74, 76, 77);
+ border-radius: 20px;
+
+ top: 0;
+
+margin-right: 30px;
+}
+
+.logo {
+  width: 120px; 
+  height:120px; 
+  cursor: pointer; 
+  text-align: center;
+  mix-blend-mode: color-burn;
+}
+/* Estilos para el formulario */
+.FORMU {
+  width: 60%; 
+  margin: 0 auto; 
+  background-color: #aaa;
+}
+
+.FORMU label {
+  display: block; 
+  margin-bottom: 20px; 
+ 
+}
+
+.FORMU input {
+  width: 100%; 
+  padding: 5px; 
+  margin-top: 5px; 
+ 
+}
+
+.FORMU button {
+  width: 100%;
+  padding: 10px; 
+  margin-top: 90px; 
+}
+
+/* Estilos para el modal */
+.modal {
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: white; 
+  padding: 30px; 
+  border-radius: 5px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  width: 180px;
+  height:100px;
+}
