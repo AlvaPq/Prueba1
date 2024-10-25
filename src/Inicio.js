@@ -5,7 +5,7 @@ import PiePagina from "./Pie";
 const imagenes = [
     "/img/fondo home.jpg",
     "/img/Añadir un subtítulo (1).jpg",
-    "/img/Añadir un subtítulo3.jpg"
+    "/img/SUBTITULO.jpg"
 ];
 
 class Cabecera extends Component {
@@ -20,7 +20,7 @@ class Cabecera extends Component {
 
         this.state = {
             titulo: "PELICULAS",
-            imgcab: "/img/Añadir un subtítulo (1).jpg",
+            imgcab: "/img/Añadir_un_subtitulo.jpg",
             c: 0
         }
     }
