@@ -4,7 +4,7 @@ import InicioCuerpo from "./inicioCuerpo";
 import PiePagina from "./Pie";
 const imagenes = [
     "/img/fondo home.jpg",
-    "/img/Añadir un subtítulo (1).jpg",
+    "/img/Añadir_un_subtitulo.jpg",
     "/img/SUBTITULO.jpg"
 ];
 
