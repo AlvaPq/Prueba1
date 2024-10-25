@@ -45,7 +45,7 @@ const Disponible = () => {
     return(
         <article>
             <Cabecera/>
-            <h2>ACERCA DE NOSOTROS</h2>
+            <h2>EN STOCK</h2>
             <Carrito/>
             <PiePagina/>
         </article>
